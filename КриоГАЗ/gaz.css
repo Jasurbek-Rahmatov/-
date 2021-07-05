@@ -1,0 +1,624 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav {
+  position: relative;
+  width: 1350px;
+  height: 80px;
+  z-index: 999;
+}
+
+header nav span {
+  cursor: pointer;
+}
+
+header nav .krio {
+  position: absolute;
+  width: 84px;
+  height: 43px;
+  left: 200px;
+  top: 33px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #0F4898;
+}
+
+header nav .gaz {
+  position: absolute;
+  width: 64px;
+  height: 43px;
+  left: 90px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #fff;
+}
+
+header nav .glava {
+  position: absolute;
+  width: 54px;
+  height: 16px;
+  left: 502px;
+  top: 47px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+}
+
+header nav .company {
+  position: absolute;
+  width: 84px;
+  height: 16px;
+  left: 576px;
+  top: 47px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+header nav .resheniya {
+  position: absolute;
+  width: 63px;
+  height: 16px;
+  left: 680px;
+  top: 47px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+header nav .realizasiya {
+  position: absolute;
+  width: 170px;
+  height: 16px;
+  left: 763px;
+  top: 47px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+header nav .contact {
+  position: absolute;
+  width: 64px;
+  height: 16px;
+  left: 953px;
+  top: 47px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+header nav .nomer {
+  position: absolute;
+  width: 102px;
+  height: 11px;
+  left: 1113px;
+  top: 38px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+header nav .pochta {
+  position: absolute;
+  width: 110px;
+  height: 11px;
+  left: 1105px;
+  top: 59px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+header .wrapper__img {
+  position: absolute;
+  width: 1350px;
+  height: 750px;
+  left: 0px;
+  top: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(15, 72, 152, 0.6)), to(rgba(15, 72, 152, 0.6))), url(Screenshot_1.png);
+  background: linear-gradient(0deg, rgba(15, 72, 152, 0.6), rgba(15, 72, 152, 0.6)), url(Screenshot_1.png);
+}
+
+header .line {
+  position: absolute;
+  width: 1350px;
+  height: 0px;
+  left: 0px;
+  top: 109px;
+  z-index: 9999;
+  border: 0.5px solid #FFFFFF;
+}
+
+header .proekt {
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  left: 0px;
+  top: 750px;
+  background: #E5E5E5;
+}
+
+header .proekt .plan {
+  position: absolute;
+  width: 170px;
+  height: 28px;
+  left: 400px;
+  top: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+
+header .proekt .krup {
+  position: absolute;
+  width: 303px;
+  height: 15px;
+  left: 400px;
+  top: 90px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+header .proekt .text {
+  padding: 30px;
+  position: absolute;
+  width: 428px;
+  height: 200px;
+  left: 400px;
+  top: 250px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+          box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+  z-index: 9999;
+}
+
+header .proekt .text .text_1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 22px;
+  color: #000000;
+}
+
+header .proekt #primorsk {
+  position: absolute;
+  width: 427px;
+  height: 450px;
+  left: 800px;
+  top: 90px;
+}
+
+header .wrapper__news .novosti {
+  position: absolute;
+  width: 170px;
+  height: 28px;
+  left: 347px;
+  top: 1400px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+
+header .wrapper__news .actual {
+  position: absolute;
+  width: 303px;
+  height: 15px;
+  left: 347px;
+  top: 1448px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+header .wrapper__news .wrapper__vse {
+  position: absolute;
+  width: 139px;
+  height: 40px;
+  left: 960px;
+  top: 1410px;
+  /* Accent 2 */
+  background: #0F4898;
+  z-index: 999;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+header .wrapper__news .wrapper__vse:hover {
+  background-color: royalblue;
+}
+
+header .wrapper__news .wrapper_1 {
+  position: absolute;
+  width: 255px;
+  height: 480px;
+  left: 247px;
+  top: 1503px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+          box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+}
+
+header .wrapper__news .wrapper_1 .data {
+  position: absolute;
+  width: 144px;
+  height: 10px;
+  left: 5px;
+  top: 225px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  color: #343434;
+}
+
+header .wrapper__news .wrapper_1 .text__3 {
+  position: absolute;
+  width: 203px;
+  height: 42px;
+  left: 5px;
+  top: 240px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #303942;
+}
+
+header .wrapper__news .wrapper_1 .piter {
+  position: absolute;
+  width: 215px;
+  height: 78px;
+  left: 5px;
+  top: 300px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+header .wrapper__news .wrapper_1 .wrapper__button {
+  position: absolute;
+  width: 125px;
+  height: 40px;
+  left: 5px;
+  top: 400px;
+  cursor: pointer;
+  background: #0F4898;
+}
+
+header .wrapper__news .wrapper_1 .wrapper__button:hover {
+  background-color: royalblue;
+}
+
+header .wrapper__news .wrapper_1 .wrapper__button #podrobnie {
+  position: absolute;
+  width: 86px;
+  height: 13px;
+  left: 15px;
+  top: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+header .wrapper__news .wrapper_2 {
+  position: absolute;
+  width: 255px;
+  height: 480px;
+  left: 547px;
+  top: 1503px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+          box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+  z-index: 999;
+}
+
+header .wrapper__news .wrapper_2 .data {
+  position: absolute;
+  width: 144px;
+  height: 10px;
+  left: 5px;
+  top: 225px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  color: #343434;
+}
+
+header .wrapper__news .wrapper_2 .text__3 {
+  position: absolute;
+  width: 203px;
+  height: 42px;
+  left: 5px;
+  top: 240px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #303942;
+}
+
+header .wrapper__news .wrapper_2 .piter {
+  position: absolute;
+  width: 215px;
+  height: 78px;
+  left: 5px;
+  top: 300px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+header .wrapper__news .wrapper_2 .wrapper__button {
+  position: absolute;
+  width: 125px;
+  height: 40px;
+  left: 5px;
+  top: 400px;
+  cursor: pointer;
+  /* Accent 2 */
+  background: #0F4898;
+}
+
+header .wrapper__news .wrapper_2 .wrapper__button:hover {
+  background-color: royalblue;
+}
+
+header .wrapper__news .wrapper_2 .wrapper__button #podrobnie {
+  position: absolute;
+  width: 86px;
+  height: 13px;
+  left: 15px;
+  top: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+header .wrapper__news .wrapper_3 {
+  position: absolute;
+  width: 255px;
+  height: 480px;
+  left: 847px;
+  top: 1503px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+          box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+  z-index: 9999;
+}
+
+header .wrapper__news .wrapper_3 .data {
+  position: absolute;
+  width: 144px;
+  height: 10px;
+  left: 5px;
+  top: 225px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  color: #343434;
+}
+
+header .wrapper__news .wrapper_3 .text__3 {
+  position: absolute;
+  width: 203px;
+  height: 42px;
+  left: 5px;
+  top: 240px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #303942;
+}
+
+header .wrapper__news .wrapper_3 .piter {
+  position: absolute;
+  width: 215px;
+  height: 78px;
+  left: 5px;
+  top: 300px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+header .wrapper__news .wrapper_3 .wrapper__button {
+  position: absolute;
+  width: 125px;
+  height: 40px;
+  left: 5px;
+  top: 400px;
+  cursor: pointer;
+  /* Accent 2 */
+  background: #0F4898;
+}
+
+header .wrapper__news .wrapper_3 .wrapper__button:hover {
+  background-color: royalblue;
+}
+
+header .wrapper__news .wrapper_3 .wrapper__button #podrobnie {
+  position: absolute;
+  width: 86px;
+  height: 13px;
+  left: 15px;
+  top: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+header .wrapper__news .news {
+  width: 550px;
+  height: 700px;
+  position: absolute;
+  left: 800px;
+  top: 1350px;
+  background: #E5E5E5;
+}
+
+header footer {
+  position: absolute;
+  width: 1350px;
+  height: 125px;
+  left: 0px;
+  top: 2050px;
+  background: #323232;
+}
+
+header footer .diskley {
+  position: absolute;
+  width: 90px;
+  height: 13px;
+  left: 501px;
+  top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+header footer .sitlenziya {
+  position: absolute;
+  width: 71px;
+  height: 13px;
+  left: 600px;
+  top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+header footer .card {
+  position: absolute;
+  width: 87px;
+  height: 13px;
+  left: 700px;
+  top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+header footer .konest {
+  position: absolute;
+  width: 537px;
+  height: 10px;
+  left: 370px;
+  top: 70px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #DCDCDC;
+}
+/*# sourceMappingURL=gaz.css.map */
